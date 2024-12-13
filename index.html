@@ -308,7 +308,7 @@
 .form-control:focus {
     border-color: #01579b; /* Darker blue on focus */
     outline: none;
-    box-shadow: 0 0 8px rgba(1, 87, 155, 0.5); /* Blue glow effect */
+    box-shadow: 0 0 8px rgba(1, 87, 155, 0.5);
 }
 
 button {
@@ -317,21 +317,21 @@ button {
     font-size: 16px;
     font-weight: bold;
     color: #fff;
-    background: linear-gradient(135deg, #0288d1, #01579b); /* Gradient button */
+    background: linear-gradient(135deg, #0288d1, #01579b); 
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Shadow for button */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 button:hover {
-    transform: translateY(-2px); /* Slight lift effect */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4); 
 }
 
 button:active {
-    transform: translateY(1px); /* Press-down effect */
+    transform: translateY(1px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -436,7 +436,7 @@ button:active {
       })
       .then(response => response.json())
       .then(data => {
-        alert('Data submitted successfully!');
+        alert('Données soumises avec succès !');
       })
       .catch(error => {
         alert('Error: ' + error);
